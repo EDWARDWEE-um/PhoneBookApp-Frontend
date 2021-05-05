@@ -63,7 +63,7 @@ export default function SimpleCard(props) {
         <Desktop>
         <Card className={classes.root} style={{height:'20vh', width:'70vh'}} >
         <CardContent>
-          <Typography variant="h2" component="h2" style={{textAlign:'center',marginTop:30, marginBottom:30}}>
+          <Typography variant="h2" component="h2" style={{textAlign:'center',marginTop:'2rem', marginBottom:'2rem'}}>
               {post.name}
           </Typography>
           <Typography variant="h3" component="h2" style={{textAlign:'center'}}>
@@ -77,7 +77,7 @@ export default function SimpleCard(props) {
         <Tablet>
         <Card className={classes.root}  style={{height:'20vh', width:'60vh'}} >
         <CardContent>
-          <Typography variant="h3" component="h2" style={{textAlign:'center',marginTop:30, marginBottom:30}} >
+          <Typography variant="h3" component="h2" style={{textAlign:'center',marginTop:'2rem', marginBottom:'2rem'}} >
               {post.name}
           </Typography>
           <Typography variant="h4" component="h2" style={{textAlign:'center'}}>

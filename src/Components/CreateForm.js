@@ -17,7 +17,6 @@ const useStyles = makeStyles({
     maxWidth: '20rem',
     maxHeight:'50rem',
     flexGrow: 1,
-    marginTop:'2rem',
     marginLeft:'auto',
     marginRight:'auto',
   },
