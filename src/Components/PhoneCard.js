@@ -61,7 +61,7 @@ export default function SimpleCard(props) {
 	return (
         <div>
         <Desktop>
-        <Card className={classes.root} style={{height:'30vh', width:'80vh'}} >
+        <Card className={classes.root} style={{height:'30vh', width:'70vh'}} >
         <CardContent>
           <Typography variant="h2" component="h2" style={{textAlign:'center',marginTop:'2rem', marginBottom:'2rem'}}>
               {post.name}
