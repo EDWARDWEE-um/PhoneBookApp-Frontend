@@ -4,7 +4,7 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import { Button } from '@material-ui/core';
-import SearchIcon from '@material-ui/icons/Search';
+import AddIcon from '@material-ui/icons/Add';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -36,9 +36,9 @@ const useStyles = makeStyles((theme) => ({
           }}>
           <Toolbar>
           <Typography variant="h6" className={classes.title} >
-              <a style={{color:'white',textDecoration:'none'}} href="/">PHONEBOOKAPP </a>
+              <a style={{color:'white',textDecoration:'none'}} href="/"> PHONE BOOK APP </a>
             </Typography>   
-            <Button href="/add" style={{color:'white'}}> <SearchIcon/> </Button>
+            <Button href="/add" style={{color:'white'}}> <AddIcon/> </Button>
           </Toolbar>
         </AppBar>
       </div>

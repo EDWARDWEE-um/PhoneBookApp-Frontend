@@ -3,7 +3,7 @@ import App from './App';
 import Header from './Components/Header';
 import CreateForm from './Components/CreateForm';
 import { BrowserRouter as Router, Route , Switch } from 'react-router-dom';
-import React, { Component } from 'react'
+import React from 'react'
 
 
 const routing = (

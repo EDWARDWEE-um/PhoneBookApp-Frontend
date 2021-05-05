@@ -1,7 +1,6 @@
 import PhoneCard from './Components/PhoneCard'
 import axiosInstance from './axios'; 
 import React, { useState, useEffect } from 'react';
-import { useHistory } from 'react-router-dom';
 
 function App() {
 	const [appState, setAppState] = useState({
@@ -18,7 +17,6 @@ function App() {
 
 	return (
 		<div className="App">
-			<h1>Latest Posts</h1>
       <PhoneCard posts={appState.posts} />
      
 		</div>
