@@ -53,7 +53,7 @@ const Desktop = ({ children }) => {
 export default function SimpleCard(props) {
   const classes = useStyles();
   const { posts } = props;
-  if (!posts || posts.length === 0) return <p>Can not find any posts, sorry</p>;
+  if (!posts || posts.length === 0) return <p>Cannot find any contact, sorry</p>;
   return (
     <React.Fragment>
 			
@@ -61,7 +61,7 @@ export default function SimpleCard(props) {
 	return (
         <div>
         <Desktop>
-        <Card className={classes.root} style={{height:'20vh', width:'70vh'}} >
+        <Card className={classes.root} style={{height:'30vh', width:'80vh'}} >
         <CardContent>
           <Typography variant="h2" component="h2" style={{textAlign:'center',marginTop:'2rem', marginBottom:'2rem'}}>
               {post.name}
